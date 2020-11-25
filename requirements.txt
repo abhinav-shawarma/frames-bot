@@ -1,0 +1,4 @@
+schedule
+requests
+opencv-python
+Pillow
