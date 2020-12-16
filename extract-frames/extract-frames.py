@@ -23,7 +23,7 @@ def get_frames(filename):
             foo.save("frame{}.jpg".format(count), optimize = True, quality = 50)
         except:
             pass
-    count += 1
+        count += 1
 
 if __name__ == "__main__":
     get_frames(filename = 'outfile.mp4')
